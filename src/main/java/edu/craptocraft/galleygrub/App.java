@@ -5,9 +5,9 @@ package edu.craptocraft.galleygrub;
 // import edu.craptocraft.galleygrub.extras.Regular;
 // import edu.craptocraft.galleygrub.extras.SauceExtra;
 // import edu.craptocraft.galleygrub.extras.SizeLargeExtra;
-// import edu.craptocraft.galleygrub.items.Item;
+import edu.craptocraft.galleygrub.items.Item;
 import edu.craptocraft.galleygrub.items.RetailPrice;
-// import edu.craptocraft.galleygrub.items.Product;
+import edu.craptocraft.galleygrub.items.Product;
 // import edu.craptocraft.galleygrub.order.Comanda;
 // import edu.craptocraft.galleygrub.order.Order;
 // import edu.craptocraft.galleygrub.receipt.Receipt;
@@ -71,18 +71,18 @@ public class App
          * de tipo Item.
          */
 
-        // System.out.print("\n\t --- GALLEY GRUB ---  \n");
+        System.out.print("\n\t --- GALLEY GRUB ---  \n");
         
-        // Product patty = new Item("Krabby Patty", 1.25);
-        // display(patty);
-        // Product bits = new Item("Coral Bits", 1.00);
-        // display(bits);
-        // Product rings = new Item("Kelp Rings", 1.50);
-        // display(rings);
-        // Product loaf = new Item("Golden Loaf", 2.00);
-        // display(loaf);
-        // Product soda = new Item("Seafoam Soda", 1.00);
-        // display(soda);
+        Product patty = new Item("Krabby Patty", 1.25);
+        display(patty);
+        Product bits = new Item("Coral Bits", 1.00);
+        display(bits);
+        Product rings = new Item("Kelp Rings", 1.50);
+        display(rings);
+        Product loaf = new Item("Golden Loaf", 2.00);
+        display(loaf);
+        Product soda = new Item("Seafoam Soda", 1.00);
+        display(soda);
 
         // /**
         //  * Bubble Bass llega al restaurante
@@ -221,7 +221,7 @@ public class App
         // receiptExtra.print();
     }
 
-    // public static void display(Product item) {
-    //     System.out.print("\t" + item.toString() + "\n");
-    // }
+    public static void display(Product item) {
+        System.out.print("\t" + item.toString() + "\n");
+    }
 }
