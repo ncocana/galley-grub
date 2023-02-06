@@ -6,9 +6,9 @@ import edu.craptocraft.galleygrub.items.Item;
 
 public interface Comanda {
     
-    void addItem(String item, Double price);
+    void addItem(String name, Double price);
 
-    void addItem(String item, Double price, String extra);
+    void addItem(String name, Double price, String extra);
 
     int size();
 

@@ -18,13 +18,13 @@ public class RetailPrice {
     }
 
     // Returns the price.
-    public static Double getPrice(String item) {
-        return prices.get(item);
+    public static Double getPrice(String extra) {
+        return prices.get(extra);
     }
 
     // Checks if it contains "item" as Key and returns a boolean.
-    public static boolean contains(String item) {
-        return prices.containsKey(item);
+    public static boolean contains(String extra) {
+        return prices.containsKey(extra);
     }
 
     public static void display() {
