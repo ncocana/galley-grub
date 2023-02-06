@@ -221,7 +221,7 @@ public class App
         // receiptExtra.print();
     }
 
-    public static void display(Product item) {
-        System.out.print("\t" + item.toString() + "\n");
-    }
+    // public static void display(Product item) {
+    //     System.out.print("\t" + item.toString() + "\n");
+    // }
 }
