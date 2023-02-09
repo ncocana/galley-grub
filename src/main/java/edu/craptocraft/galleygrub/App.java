@@ -131,52 +131,52 @@ public class App
         receipt.total();
         receipt.print();
 
-        // /**
-        //  * Eugene H. Krabs quiere obtener un margen
-        //  * de beneficio extra y decide cargar
-        //  * por los extras.
-        //  * 
-        //  * Modifica el tipo Item para incluir los extras.
-        //  * 
-        //  * Refactoriza el metodo toString() de Item
-        //  * para mostrar el ingrediente extra.
-        //  * 
-        //  * NO ACTUALICES EL PRECIO DEL ITEM
-        //  * con el cargo extra 
-        //  * pues eso lo haremos con otro componente. 
-        //  */
+        /**
+         * Eugene H. Krabs quiere obtener un margen
+         * de beneficio extra y decide cargar
+         * por los extras.
+         * 
+         * Modifica el tipo Item para incluir los extras.
+         * 
+         * Refactoriza el metodo toString() de Item
+         * para mostrar el ingrediente extra.
+         * 
+         * NO ACTUALICES EL PRECIO DEL ITEM
+         * con el cargo extra 
+         * pues eso lo haremos con otro componente. 
+         */
 
-        // System.out.print("\n\t --- GALLEY GRUB ---  \n");
+        System.out.print("\n\t --- GALLEY GRUB ---  \n");
 
-        // patty = new Item("Krabby Patty", 1.25, "cheese");
-        // display(patty);
-        // bits = new Item("Coral Bits", 1.00, "medium");
-        // display(bits);
-        // rings = new Item("Kelp Rings", 1.50, "sauce");
-        // display(rings);
-        // loaf = new Item("Golden Loaf", 2.00, "sauce");
-        // display(loaf);
-        // soda = new Item("Seafoam Soda", 1.00, "large");
-        // display(soda);
+        patty = new Item("Krabby Patty", 1.25, "cheese");
+        display(patty);
+        bits = new Item("Coral Bits", 1.00, "medium");
+        display(bits);
+        rings = new Item("Kelp Rings", 1.50, "sauce");
+        display(rings);
+        loaf = new Item("Golden Loaf", 2.00, "sauce");
+        display(loaf);
+        soda = new Item("Seafoam Soda", 1.00, "large");
+        display(soda);
 
-        // /**
-        //  * Buble Fish sigue zampando
-        //  * y realiza una comanda cargada
-        //  * de extras.
-        //  */
+        /**
+         * Buble Fish sigue zampando
+         * y realiza una comanda cargada
+         * de extras.
+         */
 
-        // order = new Order();
+        order = new Order();
 
-        // order.addItem("Krabby Patty", 1.25, "cheese");
-        // order.addItem("Coral Bits", 1.00);
-        // order.addItem("Kelp Rings", 1.50, "sauce");
-        // order.addItem("Golden Loaf", 2.00, "sauce");
-        // order.addItem("Seafoam Soda", 1.00, "large");
-        // order.addItem("Coral Bits", 1.00, "large");
+        order.addItem("Krabby Patty", 1.25, "cheese");
+        order.addItem("Coral Bits", 1.00);
+        order.addItem("Kelp Rings", 1.50, "sauce");
+        order.addItem("Golden Loaf", 2.00, "sauce");
+        order.addItem("Seafoam Soda", 1.00, "large");
+        order.addItem("Coral Bits", 1.00, "large");
 
-        // // Utiliza el diccionario Prices para incluir
-        // // el precio de los extras en la salida por consola.
-        // order.display();
+        // Utiliza el diccionario Prices para incluir
+        // el precio de los extras en la salida por consola.
+        order.display();
         
 
         // /**

@@ -34,12 +34,13 @@ public class Item implements Product {
 
     @Override
     public Boolean isRegular() {
-        // TODO Auto-generated method stub
-        return null;
+        return this.extra().isBlank();
     }
 
+    // If there is a extra, return the string with the extra.
+    // Otherwise, return the string without the extra.
     public String toString() {
-        return name() + "...." + String.format("%.2f", price()) + "$";
+        return RetailPrice.contains(this.extra())? this.name + "...." + String.format("%.2f", price()) + "$ + " + String.format("%.2f", RetailPrice.getPrice(extra)) + "$":this.name + "...." + String.format("%.2f", price()) + "$";
     }
 
     public boolean equals(Object item) {
