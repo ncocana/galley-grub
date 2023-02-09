@@ -3,7 +3,7 @@ package edu.craptocraft.galleygrub.items;
 public class Item implements Product {
 
     protected String name = "";
-    protected Double price = 0.0;
+    protected Double price = 0d;
     protected String extra = "";
 
     public Item(String name, Double price) {
@@ -43,11 +43,11 @@ public class Item implements Product {
     }
 
     public boolean equals(Object item) {
-        return false;
+        return this.name.equals(item);
     }
 
     public int hashCode() {
-        return 0;
+        return this.name.hashCode();
     }
     
 }
