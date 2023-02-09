@@ -10,7 +10,7 @@ import edu.craptocraft.galleygrub.items.ItemFactory;
 public class Order implements Comanda {
 
     private List<Item> items = new ArrayList<Item>();
-    private Double total = 0.0;
+    private Double total = 0d;
 
     public Order() {}
 
