@@ -13,7 +13,7 @@ public class RetailPrice {
     public static void init_prices() {
         prices.put("large", 0.5);
         prices.put("sauce", 0.5);
-        prices.put("meidum", 0.25);
+        prices.put("medium", 0.25);
         prices.put("cheese", 0.25);
     }
 
