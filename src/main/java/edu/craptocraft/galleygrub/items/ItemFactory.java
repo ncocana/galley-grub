@@ -23,12 +23,12 @@ public class ItemFactory {
     }
 
     // Returns the length/size of the Map.
-    public static int size() {
+    static int size() {
         return itemMap.size();
     }
 
     // Clears the Map.
-    public static void clear() {
+    static void clear() {
         itemMap.clear();
     }
 
