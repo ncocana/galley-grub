@@ -10,8 +10,8 @@ import edu.craptocraft.galleygrub.items.RetailPrice;
 import edu.craptocraft.galleygrub.items.Product;
 import edu.craptocraft.galleygrub.order.Comanda;
 import edu.craptocraft.galleygrub.order.Order;
-// import edu.craptocraft.galleygrub.receipt.Receipt;
-// import edu.craptocraft.galleygrub.receipt.Ticket;
+import edu.craptocraft.galleygrub.receipt.Receipt;
+import edu.craptocraft.galleygrub.receipt.Ticket;
 
 /**
  * 
@@ -121,15 +121,15 @@ public class App
 
         order.display();
 
-        // /**
-        //  * Squidward Tentacles genera el recibo,
-        //  * la app calcula el importe total de la comanda
-        //  * y lo muestra en pantalla.
-        //  */
+        /**
+         * Squidward Tentacles genera el recibo,
+         * la app calcula el importe total de la comanda
+         * y lo muestra en pantalla.
+         */
 
-        // Ticket receipt = new Receipt(order);
-        // receipt.total();
-        // receipt.print();
+        Ticket receipt = new Receipt(order);
+        receipt.total();
+        receipt.print();
 
         // /**
         //  * Eugene H. Krabs quiere obtener un margen
