@@ -2,8 +2,6 @@ package edu.craptocraft.galleygrub.items;
 
 import org.junit.Test;
 
-import edu.craptocraft.galleygrub.items.RetailPrice;
-
 import static org.junit.Assert.*;
 
 public class RetailPriceTest {
