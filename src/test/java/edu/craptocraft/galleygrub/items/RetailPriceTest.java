@@ -1,4 +1,4 @@
-package edu.craptocraft.galleygrub;
+package edu.craptocraft.galleygrub.items;
 
 import org.junit.Test;
 
