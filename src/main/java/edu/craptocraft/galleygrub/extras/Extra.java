@@ -6,10 +6,9 @@ import edu.craptocraft.galleygrub.order.Comanda;
 
 public abstract class Extra {
  
-    protected static final String CHEESE = "";
-    protected static final String SAUCE = "";
-    protected static final String SAUCE_LARGE = "";
-    protected String extraProduct = "";
+    protected static final String CHEESE = "cheese";
+    protected static final String SAUCE = "sauce";
+    protected static final String SIZE_LARGE = "large";
     protected Optional<Extra> nextExtra = Optional.ofNullable(null);
     
     public Extra() {}
