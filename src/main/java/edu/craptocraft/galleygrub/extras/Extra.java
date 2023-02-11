@@ -8,6 +8,7 @@ public abstract class Extra {
  
     protected static final String CHEESE = "cheese";
     protected static final String SAUCE = "sauce";
+    protected static final String SIZE_MEDIUM = "medium";
     protected static final String SIZE_LARGE = "large";
     protected Optional<Extra> nextExtra = Optional.ofNullable(null);
     
