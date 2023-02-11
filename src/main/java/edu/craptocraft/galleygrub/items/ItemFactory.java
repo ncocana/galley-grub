@@ -18,8 +18,8 @@ public class ItemFactory {
     // Get the item with extras.
     // e.g.: "item /w extra".
     public static Item getItem(String name, Double price, String extra) {
-        itemMap.putIfAbsent(name + " /w " + extra, new Item(name, price, extra));
-        return itemMap.get(name + " /w " + extra);
+        itemMap.putIfAbsent(name + " w/ " + extra, new Item(name, price, extra));
+        return itemMap.get(name + " w/ " + extra);
     }
 
     // Returns the length/size of the Map.

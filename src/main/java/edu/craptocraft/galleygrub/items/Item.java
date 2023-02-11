@@ -40,7 +40,7 @@ public class Item implements Product {
     // If there is a extra, return the string with the extra.
     // Otherwise, return the string without the extra.
     public String toString() {
-        return RetailPrice.contains(this.extra())? this.name + "...." + String.format("%.2f", price()) + "$ + " + String.format("%.2f", RetailPrice.getPrice(extra)) + "$":this.name + "...." + String.format("%.2f", price()) + "$";
+        return RetailPrice.contains(this.extra())? this.name + " w/ " + this.extra + "...." + String.format("%.2f", price()) + "$ + " + String.format("%.2f", RetailPrice.getPrice(extra)) + "$":this.name + "...." + String.format("%.2f", price()) + "$";
     }
 
     public boolean equals(Object item) {
