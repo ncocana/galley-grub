@@ -44,7 +44,7 @@ public class Item implements Product {
     }
 
     public boolean equals(Object item) {
-        return this.name.equals(((Item)item).name);
+        return this.name.equals(((Item)item).name) && this.extra.equals(((Item)item).extra);
     }
 
     public int hashCode() {
