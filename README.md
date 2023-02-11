@@ -11,7 +11,7 @@
 
 This is an exam in Java of previous years of Proggramation in CIFP Francesc de Borja Moll. The idea was to practice Java and gain a deeper understanding of Hash Maps, Lists, Conditional (Ternary) Operators, and the [Chain-of-responsibility](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern) and [Flyweight](https://en.wikipedia.org/wiki/Flyweight_pattern) patterns.   
 
-Link of the exam: [Galley Grub](https://github.com/dfleta/galley-grub).  
+**Link of the exam:** [Galley Grub](https://github.com/dfleta/galley-grub).  
 
 ## About the exam
 
@@ -23,5 +23,5 @@ SpongeBob works as a chef at the famous Krusty Krab restaurant, known for their 
 
 ## Application output
 
-(imagen)
-(imagen)
+![CLI_01](https://user-images.githubusercontent.com/117761602/218285660-6e42f0ee-4d30-4413-9078-0582b1373ae8.png)   
+![CLI_02](https://user-images.githubusercontent.com/117761602/218285661-89e64903-6bc3-4edc-98f1-04fbbeba28e8.png)   
