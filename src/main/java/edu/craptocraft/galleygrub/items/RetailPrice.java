@@ -11,10 +11,10 @@ public class RetailPrice {
 
     // Insert extra ingredients and its prices on the "prices" Map.
     public static void init_prices() {
-        prices.put("large", 0.5);
-        prices.put("sauce", 0.5);
-        prices.put("medium", 0.25);
-        prices.put("cheese", 0.25);
+        prices.put("large", 0.50d);
+        prices.put("sauce", 0.50d);
+        prices.put("medium", 0.25d);
+        prices.put("cheese", 0.25d);
     }
 
     // Returns the price.
