@@ -19,7 +19,7 @@ SpongeBob works as a chef at the famous Krusty Krab restaurant, known for their 
 
 ## UML Diagram
 
-(imagen)
+!["Diagrama de clases UML"](./docs/diagram-uml-galley-grub.jpg "Diagrama de clases UML")
 
 ## Application output
 
